@@ -3,7 +3,7 @@ import store from "../store";
 import router from "../router";
 
 const instance = axios.create({
-  baseURL: "https://4.204.33.118:8080/api", // API 서버 주소
+  baseURL: "http://localhost:8080/api", // API 서버 주소
   // withCredentials: true, // 쿠키 허용
 });
 
